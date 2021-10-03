@@ -6,9 +6,11 @@ LIVE PREVIEW  <a href="https://awprojectphp.000webhostapp.com/ALHIKMAH/CENTER">A
 
 IFRAME WEBSITE CENTER ALHIKMAH.MY.ID
 
-<code> <iframe id="PHP ALHIKMAH.MY.ID"
+<code style="-moz-border-radius: 11px; -webkit-border-radius: 11px; background-color: #D9E4E4; border-radius: 11px; border: 5px solid #999; padding: 11px; t-align: left;">
+<iframe id="PHP ALHIKMAH.MY.ID"
  src="https://awprojectphp.000webhostapp.com/ALHIKMAH/ARTIKEL/sitemap.html",frameborder="0" height="1200" width="350" scrolling="no"></iframe>
 </code>
+
 
 
  
