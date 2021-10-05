@@ -1,5 +1,5 @@
 var a = document.createElement('a');
-var linkText = document.createTextNode("AL HIKMAH");
+var linkText = document.createTextNode("🕌");
 a.appendChild(linkText);
 a.title = "AL HIKMAH";
 a.href = "https://awprojectphp.000webhostapp.com/ALHIKMAH/CENTER";
