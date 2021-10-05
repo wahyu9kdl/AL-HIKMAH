@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "679591047596",
+    "firebase_url": "https://kata-kata-hikmah-fa220.firebaseio.com",
+    "project_id": "kata-kata-hikmah-fa220",
+    "storage_bucket": "kata-kata-hikmah-fa220.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679591047596:android:643c129bf3ebe49b3e8a09",
+        "android_client_info": {
+          "package_name": "com.myhimadanbijaksana.himadanbijaksana"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "679591047596-fsq7b5gcvjb4f5s2nu0nupvouhunun5f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmBwUnPDBEsWtrYGF-ozb85rPYRZ-OtvQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "679591047596-fsq7b5gcvjb4f5s2nu0nupvouhunun5f.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "679591047596-avar8j7vd6kiaotvmnugnkakvvtqun0k.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.company.AwAPLIKASI",
+                "app_store_id": "5674641545910991"
+              }
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-5295583488737876~8301291841"
+    }
+  ],
+  "configuration_version": "1"
+}
