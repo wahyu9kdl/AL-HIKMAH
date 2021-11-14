@@ -1,22 +1,22 @@
 # AL-HIKMAH
 AL HIKMAH CENTER
 
-SITUS Website <a href="www.alhikmah.my.id"> ALHIKMAH.MY.ID</a>
+SITUS Website <a href="https://www.alhikmah.my.id"> ALHIKMAH.MY.ID</a>
 Code <a href="https://github.com/wahyu9kdl/AL-HIKMAH/blob/main/ISLAMIC%20CENTER">PAGE ISLAMIC CENTER</a>
-LIVE PREVIEW  <a href="https://awprojectphp.000webhostapp.com/ALHIKMAH/CENTER">AL HIKMAH CENTER</a>
+LIVE PREVIEW  <a href="https://www.alhikmah.my.id/p/al-hikmah-center.html">AL HIKMAH CENTER</a>
 #
 <h2>IFRAME WEBSITE CENTER ALHIKMAH.MY.ID</h2>
 
 <code style="-moz-border-radius: 11px; -webkit-border-radius: 11px; background-color: #D9E4E4; border-radius: 11px; border: 5px solid #999; padding: 11px; t-align: left;">
 <iframe id="PHP ALHIKMAH.MY.ID"
- src="https://awprojectphp.000webhostapp.com/ALHIKMAH/ARTIKEL/sitemap.html",frameborder="0" height="1200" width="350" scrolling="no"></iframe>
+ src="https://www.alhikmah.my.id/p/al-hikmah-center.html",frameborder="0" height="1200" width="350" scrolling="no"></iframe>
 </code>
 
 #
 <h2> JS ISLAMIC CENTER ( AL HIKMAH )</h2>
 
 
-<code><script> var a = document.createElement('a'); var linkText = document.createTextNode("🕌 "); a.appendChild(linkText); a.title = "AL HIKMAH"; a.href = "https://awprojectphp.000webhostapp.com/ALHIKMAH/CENTER"; document.body.appendChild(a); </script></code>	
+<code><script> var a = document.createElement('a'); var linkText = document.createTextNode("🕌 "); a.appendChild(linkText); a.title = "AL HIKMAH"; a.href = "https://www.alhikmah.my.id/p/al-hikmah-center.html"; document.body.appendChild(a); </script></code>	
 	
 <p><a href="https://github.com/wahyu9kdl/AL-HIKMAH/blob/main/Js">✪ CODE JS</a>
 </p>
