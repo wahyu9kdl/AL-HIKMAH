@@ -1,12 +1,14 @@
 # AL-HIKMAH
 AL HIKMAH CENTER
 
-SITUS Website <a href="https://www.alhikmah.my.id"> ALHIKMAH.MY.ID</a>
-Code <a href="https://github.com/wahyu9kdl/AL-HIKMAH/blob/main/ISLAMIC%20CENTER">PAGE ISLAMIC CENTER</a>
-LIVE PREVIEW  <a href="https://www.alhikmah.my.id/p/al-hikmah-center.html">AL HIKMAH CENTER</a>
+AL HIKMAH CENTER ini kami Ambil Referensi dari situs pribadi kami di
+Situs Website <a href="https://www.alhikmah.my.id"> ALHIKMAH.MY.ID</a>
+Code <a href="https://github.com/wahyu9kdl/AL-HIKMAH">PAGE ISLAMIC CENTER</a> via github.
+LIVE PREVIEW  on blooger <a href="https://www.alhikmah.my.id/p/al-hikmah-center.html">AL HIKMAH CENTER</a>
 #
-<h2>IFRAME WEBSITE CENTER ALHIKMAH.MY.ID</h2>
+<h2>IFRAME PAGE</h2>
 
+Anda Dapat mempublikasikan Halaman ini dengan code script iframe for blooger/Wp or website pribadi Anda.
 <code style="-moz-border-radius: 11px; -webkit-border-radius: 11px; background-color: #D9E4E4; border-radius: 11px; border: 5px solid #999; padding: 11px; t-align: left;">
 <iframe id="PHP ALHIKMAH.MY.ID"
  src="https://www.alhikmah.my.id/p/al-hikmah-center.html",frameborder="0" height="1200" width="350" scrolling="no"></iframe>
