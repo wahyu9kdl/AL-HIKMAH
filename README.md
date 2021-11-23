@@ -22,6 +22,15 @@ LIVE PREVIEW  <a href="https://www.alhikmah.my.id/p/al-hikmah-center.html">AL HI
 </p>
 
 #
+<h2>PUBLIKASI </h2>
+ 
+Anda Dapat Mendapatkan Integrasi repotasi page on github
+
+Silahkan Buka Setting Configurasinya <a href="https://github.com/wahyu9kdl/AL-HIKMAH/blob/gh-pages/index.md">di sini</a>
+
+Anda Akan Mendapatkan Tampilannya Seperti yang Sudah Saya Terapkan untuk Halaman <a href="https://wahyu9kdl.github.io/AL-HIKMAH/">ALHIKMAH [ ISLAMIC CENTER ] </a> Dengan Tampilan Seperti yang akan Lihat <a href="https://wahyu9kdl.github.io/AL-HIKMAH/">dihalaman ini</a>
+
+#
 <h2>📜 ARTIKEL AL HIKMAH</h2>
 
  
