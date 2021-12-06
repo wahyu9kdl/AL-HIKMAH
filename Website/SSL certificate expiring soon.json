@@ -1,0 +1,45 @@
+{
+  "name": "projects/kata-kata-hikmah-fa220/alertPolicies/4010799179349146639",
+  "displayName": "SSL certificate expiring soon",
+  "documentation": {},
+  "userLabels": {
+    "version": "1",
+    "uptime": "ssl_cert_expiration"
+  },
+  "conditions": [
+    {
+      "name": "projects/kata-kata-hikmah-fa220/alertPolicies/4010799179349146639/conditions/4010799179349145536",
+      "displayName": "SSL certificate expiring soon",
+      "conditionThreshold": {
+        "aggregations": [
+          {
+            "alignmentPeriod": "1200s",
+            "crossSeriesReducer": "REDUCE_MEAN",
+            "groupByFields": [
+              "resource.label.*"
+            ],
+            "perSeriesAligner": "ALIGN_NEXT_OLDER"
+          }
+        ],
+        "comparison": "COMPARISON_LT",
+        "duration": "600s",
+        "filter": "metric.type=\"monitoring.googleapis.com/uptime_check/time_until_ssl_cert_expires\" AND resource.type=\"uptime_url\"",
+        "thresholdValue": 15,
+        "trigger": {
+          "count": 1
+        }
+      }
+    }
+  ],
+  "combiner": "OR",
+  "enabled": true,
+  "notificationChannels": [],
+  "creationRecord": {
+    "mutateTime": "2021-10-09T16:53:15.686855329Z",
+    "mutatedBy": "blanzcye.yud@gmail.com"
+  },
+  "mutationRecord": {
+    "mutateTime": "2021-10-09T16:53:15.686855329Z",
+    "mutatedBy": "blanzcye.yud@gmail.com"
+  }
+}
