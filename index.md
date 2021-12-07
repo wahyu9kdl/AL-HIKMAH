@@ -567,13 +567,12 @@
         </li>
         <li class="menu-nav__item">
           <a href="https://www.alhikmah.my.id/p/daftar-isi-kata-kata-hikmah_29.html" class="menu-nav__link">
-           ARTIKEL
-            
+           ARTIKEL            
           </a>
         </li>
-<li class="menu-nav__item">
+        <li class="menu-nav__item">
           <a href="https://wahyu9kdl.github.io/AL-HIKMAH/sitemap.html" class="menu-nav__link">
-            VIDIO HIKMAH
+            SITEMAP
           </a>
         </li>
       </ul>
