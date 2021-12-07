@@ -571,6 +571,11 @@
             
           </a>
         </li>
+<li class="menu-nav__item">
+          <a href="https://wahyu9kdl.github.io/AL-HIKMAH/sitemap.html" class="menu-nav__link">
+            VIDIO HIKMAH
+          </a>
+        </li>
       </ul>
     </nav>
   </header>
