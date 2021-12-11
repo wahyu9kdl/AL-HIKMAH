@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+    <head>
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+	<meta charset="utf-8" />
+	<meta name="author" content="SY Media" />
+	<meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=yes" />
+        <title>Al Quran MP3 Full Offline</title>
+
+		<link type="text/css" rel="stylesheet" href="css/style.css" />
+		<link type="text/css" rel="stylesheet" href="jquery.mmenu.all.css" />
+		
+		<!-- for the one page layout -->
+		<style type="text/css">
+			section
+			{
+				border-top: 1px solid #ccc;
+				padding: 150px 0 200px;
+			}
+			section:first-child
+			{
+				border-top: none;
+				padding-top: 0;
+			}
+		</style>
+		
+		<!-- for the fixed header -->
+		<style type="text/css">
+			.header,
+			.footer
+			{
+				position: fixed;
+				left: 0;
+				right: 0;
+			}
+			.header
+			{
+				top: 0;
+			}
+			.footer
+			{
+				bottom: 0;
+			}
+			@media (min-width: 2000px) {
+				.header a
+				{
+					display: none;
+				}
+			}
+		</style>
+		
+		<script type="text/javascript" src="jquery.min.js"></script>
+		<script type="text/javascript" src="hammer.min.js"></script>
+		<script type="text/javascript" src="jquery.mmenu.all.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('nav#menu').mmenu({
+					drag 		: true,
+					pageScroll 	: {
+						scroll 		: true,
+						update		: true
+					},
+					// extensions: {
+					// 	'all': ['pagedim-white'],
+					// 	'(min-width: 400px)' : ['pagedim-black']
+					// },
+					sidebar 	: {
+						expanded 	: 2000
+					}
+				});
+			});
+		</script>
+
+</head>
+	<body>
+	<div id="page">
+			<div class="header Fixed">
+				<a href="#menu"><span></span></a>
+				<img style="padding-top:5px;max-height:30px;" src="header.png"/>
+			</div>
+<div class="content" id="content">
+<center>
+<a href="#menu">
+<div style="padding-top:20px;">
+
+<style>
+			.circleBase {
+				border-radius:50%;behavior:url(PIE.htc);width:10px;height:10px;background:#ff0000;
+			}
+			.clockBody {
+				width:200px;height:200px;border:5px solid #ca7a13;
+				background: rgb(240, 168, 75) url(bgjam.png);
+			}
+			.clockLine {
+				width:2px;height:10px;background:#ffffff;position:absolute;transform-origin:50% 100%;
+			}
+			.clockFont {
+				font-family:arial;font-size:20px;font-weight:bold;width:140px;background:transparent;color:#fff;text-shadow: 2px 0 2px #000;position:absolute;
+			}
+			.hourHand {
+				width:6px;height:78px;background:#ffffff;position:absolute;margin-top:22px;margin-left:97px;transform-origin:50% 68px;border-radius:50% 50% 0 0;outline:1px solid transparent;
+			}
+			.minHand {
+				width:4px;height:94px;background:#ffffff;position:absolute;margin-top:12px;margin-left:98px;transform-origin:50% 78px;border-radius:50% 50% 0 0;outline:1px solid transparent;
+			}
+			.secHand {
+				width:2px;height:108px;background:#ff0000;position:absolute;margin-top:2px;margin-left:99px;transform-origin:50% 88px;border-radius:50% 50% 0 0;outline:1px solid transparent;transition-duration:100ms;
+			}
+</style>
+
+<div class="circleBase clockBody"> <!-- elemen utama (lingkaran jam) -->
+			<center>
+			<!-- elemen didalam jam -->
+					<div class="clockLine" style='position: relative;'></div>
+					<div class="clockLine" style='margin: 2px 144px; transform: rotate(30deg);'></div>
+					<div class="clockLine" style='margin: 35px 177px; transform: rotate(60deg);'></div>
+					<div class="clockLine" style='margin: 80px 189px; transform: rotate(90deg);'></div>
+					<div class="clockLine" style='margin: 125px 177px; transform: rotate(120deg);'></div>
+					<div class="clockLine" style='margin: 158px 144px; transform: rotate(150deg);'></div>
+					<div class="clockLine" style='margin: 180px 99px;'></div>
+					<div class="clockLine" style='margin: 158px 54px; transform: rotate(210deg);'></div>
+					<div class="clockLine" style='margin: 125px 21px; transform: rotate(240deg);'></div>
+					<div class="clockLine" style='margin: 80px 9px; transform: rotate(270deg);'></div>
+					<div class="clockLine" style='margin: 35px 21px; transform: rotate(300deg);'></div>
+					<div class="clockLine" style='margin: 2px 54px; transform: rotate(330deg);'></div>
+					<div class="clockFont" id='digiDate' style='margin: 20px 30px; font-size: 14px;'></div>
+					<div class="clockFont" id='digiClock' style='margin: 132px 30px;'></div>
+					<div class="hourHand" id='hrHnd'></div>
+					<div class="minHand" id='mnHnd'></div>
+					<div class="secHand" id='scHnd'></div>
+					<div class="circleBase" style='position: absolute; margin: 85px 95px;'></div>
+					<!-- elemen didalam jam -->
+			</center>	
+		</div>
+
+<script>
+		var dN = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jum'at", "Sabtu"]; //hari
+		var mN = ["Jan", "Feb", "Mar", "Apr", "Mei", "Jun", "Jul", "Agt", "Sep", "Okt", "Nop", "Des"]; //bulan
+		//var pN = ["Legi", "Pahing", "Pon", "Wage", "Kliwon"]; //pasaran (hari jawa)
+
+		var pasaran = new Array('Legi','Pahing','Pon','Wage','Kliwon');
+		var hari = new Array('Senin','Selasa','Rabu','Kamis','Jumat','Sabtu','Ahad');
+		var d2 = new Date("2014/01/27");
+		var d1 = new Date();
+		var selisih = Math.floor(Math.abs(d1-d2)/86400000);
+		var pasar = pasaran[selisih%5];
+		var hari = hari[selisih%7];
+		var day = d1.getDate();
+		var month = d1.getMonth() + 1;
+		var year = d1.getFullYear();
+		
+		function refreshClock() {
+			//ambil waktu saat ini
+			dtCl = new Date(); //fungsi Date()
+			hrCl = dtCl.getHours(); //jam
+			mnCl = dtCl.getMinutes(); //menit
+			scCl = dtCl.getSeconds(); //detik
+			dyCl = dtCl.getDate(); //tanggal
+			mtCl = dtCl.getMonth(); //bulan
+			yrCl = dtCl.getFullYear(); //tahun
+			//ambil waktu saat ini
+
+			//putar elemen menit dan jam
+			hrHnd.style.transform = "rotate(" + ((30 * hrCl) + (mnCl / 2)) + "deg)";
+			mnHnd.style.transform = "rotate(" + ((6 * mnCl) + (scCl / 10)) + "deg)";
+			//putar elemen menit dan jam
+
+			//putar dan haluskan gerakan detik
+			if (scCl == 0) {
+				if (scHnd.style.transform != "rotate(0deg)") {
+					scHnd.style.transform = "rotate(360deg)";
+					setTimeout(function() {
+						scHnd.style.transitionDuration = "0ms";
+						scHnd.style.transform = "rotate(0deg)";
+					}, 100);
+				}
+			} else {
+				if (scHnd.style.transitionDuration != "100ms") {
+					scHnd.style.transitionDuration = "100ms";
+				}
+				scHnd.style.transform = "rotate(" + (6 * scCl) + "deg)";
+			}
+			//putar dan haluskan gerakan detik
+
+			//penambahan 0 didepan bila angka < 10 (mis. 9 menjadi 09)
+			if (dyCl < 10) {
+				dyCl = "0" + dyCl;
+			}
+			if (hrCl < 10) {
+				hrCl = "0" + hrCl;
+			}
+			if (mnCl < 10) {
+				mnCl = "0" + mnCl;
+			}
+			if (scCl < 10) {
+				scCl = "0" + scCl;
+			}
+			//penambahan 0 didepan bila angka < 10 (mis. 9 menjadi 09)
+
+			//tampilan jam dan tanggal digital
+			pScL = (((new Date(yrCl, mtCl, dyCl).getTime() - new Date(100, 0, 1).getTime()) / (24 * 60 * 61 * 1000)) % 5); //hitung pasaran
+			digiClock.innerHTML = hrCl + ":" + mnCl + ":" + scCl; //jam digital
+			digiDate.innerHTML = dyCl + "&nbsp;" + mN[mtCl] + "&nbsp;" + yrCl + "<br/>" + hari + " " + pasar; //tanggal + pasaran
+			
+			//document.write(""+ hari + " " + pasar +"<br/> <b>" + day + "/" + month + "/" + year + "</b><p>");
+			
+			//tampilan jam dan tanggal digital
+			setTimeout("refreshClock();", 250); //panggil fungsi (untuk hasil terbaik buat waktu timeout < 1000ms dan > 100ms)
+		}
+
+		refreshClock(); //panggil fungsi
+	</script>
+</div></a>
+<div style="padding-top:6px;margin-top:0px;background:url(pita.png);font-size:12px;width:220px;height:35px;color:#fff;">
+<script>
+function gmod(a,t){return(a%t+t)%t}function kuwaiticalendar(t){var r=new Date;t&&(adjustmili=864e5*t,todaymili=r.getTime()+adjustmili,r=new Date(todaymili)),day=r.getDate(),month=r.getMonth(),year=r.getFullYear(),m=month+1,y=year,m<3&&(y-=1,m+=12),a=Math.floor(y/100),b=2-a+Math.floor(a/4),y<1583&&(b=0),1582==y&&(10<m&&(b=-10),10==m&&(b=0,4<day&&(b=-10))),jd=Math.floor(365.25*(y+4716))+Math.floor(30.6001*(m+1))+day+b-1524,b=0,2299160<jd&&(a=Math.floor((jd-1867216.25)/36524.25),b=1+a-Math.floor(a/4)),bb=jd+b+1524,cc=Math.floor((bb-122.1)/365.25),dd=Math.floor(365.25*cc),ee=Math.floor((bb-dd)/30.6001),day=bb-dd-Math.floor(30.6001*ee),month=ee-1,13<ee&&(cc+=1,month=ee-13),year=cc-4716,wd=t?gmod(jd+1-t,7)+1:gmod(jd+1,7)+1,iyear=10631/30,epochastro=1948084,epochcivil=1948085,shift1=.1335,z=jd-epochastro,cyc=Math.floor(z/10631),z-=10631*cyc,j=Math.floor((z-shift1)/iyear),iy=30*cyc+j,z-=Math.floor(j*iyear+shift1),im=Math.floor((z+28.5001)/29.5),13==im&&(im=12),id=z-Math.floor(29.5001*im-29);var o=new Array(8);return o[0]=day,o[1]=month-1,o[2]=year,o[3]=jd-1,o[4]=wd-1,o[5]=id,o[6]=im-1,o[7]=iy,o}function writeIslamicDate(a){new Array("Ahad","Ithnin","Thulatha","Arbaa","Khams","Jumuah","Sabt");var t=new Array("Muharram","Safar","Rabi'ul Awwal","Rabi'ul Akhir","Jumadal Ula","Jumadal Akhira","Rajab","Sha'ban","Ramadan","Shawwal","Dhul Qa'ada","Dhul Hijja"),r=kuwaiticalendar(a);return+r[5]+" "+t[r[6]]+" "+r[7]+" H"}document.write(writeIslamicDate());
+</script>
+</div>
+
+<noscript>
+
+<script type="text/javascript" src="tgl.js"></script></noscript>
+<br/>
+</center>
+<style>
+.tombol{clear:both;}
+.tombol1{margin-left:20%;margin-right:5px;background:#f0a84b;width:20%;float:left;padding:2px;border-radius:15px;}
+.tombol2{margin-right:5px;background:#f0a84b;width:20%;float:left;padding:2px;border-radius:15px;}
+.tombol3{background:#f0a84b;width:20%;float:left;padding:2px;border-radius:15px;}
+
+.tombolpanjang1{margin-left:20%;margin-right:5px;background:#f0a84b;width:28%;float:left;padding:2px;border-radius:15px;}
+.tombopanjang2{margin-right:20%;margin-left:5px;background:#f0a84b;width:28%;float:right;padding:2px;border-radius:15px;}
+</style>
+<div class="tombol">
+<a href="andromo://audio100809"><button class="tombopanjang2"><img src="alquranmp3.png" width="100%"/></button></a>
+<a href="andromo://html87126"><button class="tombolpanjang1"><img src="bacaalquran.png" width="100%"/></button></a>
+</div>
+
+<div class="tombol">
+<img style="bottom:0px;position:fixed;width:96%;" src="masjida.png"/>
+</div>
+
+			</div>
+			<div class="footer Fixed">
+				Al Quran Offline
+			</div>
+			<nav id="menu">
+				<ul>
+					<li><a href="index.html">✪ Home</a></li>
+					<li><a href="andromo://audio100809">✪ Play Al-Quran MP3</a></li>
+					<li><a href="andromo://html87126">✪ Read Al-Quran Offline</a></li>	
+					<li><a href="andromo://market244880">✪ Rate Us ***** </a></li>
+					
+				</ul>
+			</nav>
+		</div>
+	</body>
+</html>
