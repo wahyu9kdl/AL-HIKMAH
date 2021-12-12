@@ -32,6 +32,7 @@ Themeindie
 numPosts = 100;function recentPosts(a){if(document.getElementById("recent-posts")){var e=a.feed.entry,title,link,content="",ct=document.getElementById("recent-posts");ct.async=true;for(var i=0;i<numPosts;i++){for(var j=0;j<numPosts;j++){if(e[i].link[j].rel=="alternate"){link=e[i].link[j].href;break}}var title=e[i].title.$t;content+='<li class="recent-posts"><a href="'+link+'" title="'+title+'">'+title+'</a></li>'}ct.innerHTML=content}}var rcp=document.createElement('script');rcp.async=true;rcp.src='https://www.alhikmah.my.id/feeds/posts/summary?alt=json-in-script&orderby=published&max-results='+numPosts+'&callback=recentPosts';document.getElementsByTagName('head')[0].appendChild(rcp);
 //]]>
 </script>
+<a href="https://www.patreon.com/bePatron?u=65164893" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
 
 <a href="https://www.alhikmah.my.id" ><div><h1>2021©️ALHIKMAH</h1></div></a>
 </center>
