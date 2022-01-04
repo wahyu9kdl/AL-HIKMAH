@@ -3,7 +3,7 @@ AL HIKMAH CENTER
 
 AL HIKMAH CENTER ini kami Ambil Referensi dari situs pribadi kami di
 Situs Website <a href="https://www.alhikmah.my.id"> ALHIKMAH.MY.ID</a>
-Code <a href="https://github.com/wahyu9kdl/AL-HIKMAH">PAGE ISLAMIC CENTER</a> via github.
+Code <a href="https://wahyu9kdl.github.io/AL-HIKMAH/">PAGE ISLAMIC CENTER</a> via github.
 LIVE PREVIEW  on blooger <a href="https://www.alhikmah.my.id/p/al-hikmah-center.html">AL HIKMAH CENTER</a>
 #
 <h2>IFRAME PAGE</h2>
