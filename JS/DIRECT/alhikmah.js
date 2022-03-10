@@ -1,0 +1,121 @@
+<script type="text/javascript">
+
+setTimeout(function() {
+var howMany = 100; 
+var page = new Array(howMany+1);
+
+page[0]=" https://www.alhikmah.my.id/2022/02/kitab_28.html ";
+page[1]=" https://www.alhikmah.my.id/2022/02/kitab.html ";
+page[2]=" https://www.alhikmah.my.id/2022/02/kisah-hikmah_23.html ";
+page[3]=" https://www.alhikmah.my.id/2022/02/kisah-hikmah_23.html ";
+page[4]=" https://www.alhikmah.my.id/2022/02/kisah-hikmah_67.html ";
+page[5]=" https://www.alhikmah.my.id/2022/02/kisah-hikmah_22.html ";
+page[6]=" https://www.alhikmah.my.id/2020/10/blog-post.html ";
+page[7]=" https://www.alhikmah.my.id/2020/07/blog-post.html ";
+page[8]=" https://www.alhikmah.my.id/2022/02/hadits.html ";
+page[9]=" https://www.alhikmah.my.id/2022/02/rajab.html ";
+page[10]=" https://www.alhikmah.my.id/2020/10/gerakan-pemuda-ansor-gp-ansor.html ";
+page[11]=" https://www.alhikmah.my.id/2020/08/irmas-ikatatan-remaja-masjid.html ";
+page[12]=" https://www.alhikmah.my.id/2022/02/kisah-hikmah_19.html ";
+page[13]=" https://www.alhikmah.my.id/2020/11/ucapan-romantis-1.html ";
+page[14]=" https://www.alhikmah.my.id/2020/08/hikmah.html ";
+page[15]=" https://www.alhikmah.my.id/2020/11/keutamaan-keistimewaan-dan-peristiwa.html ";
+page[16]=" https://www.alhikmah.my.id/2020/11/wa.html ";
+page[17]=" https://www.alhikmah.my.id/2022/02/aqidatul.html ";
+page[18]=" https://www.alhikmah.my.id/2020/12/usul-fiqih-qiyas-pengertian-dan.html ";
+page[19]=" https://www.alhikmah.my.id/2020/10/masa-khulafaur-rasyidin.html ";
+page[20]=" https://www.alhikmah.my.id/2020/09/bersyukurlah.html ";
+page[21]=" https://www.alhikmah.my.id/2020/10/kisah-sejarah-raden-fatah-kesultanan.html ";
+page[22]=" https://www.alhikmah.my.id/2021/01/adabul-alim-wal-mutaalim-bab-10-tata.html ";
+page[23]=" https://www.alhikmah.my.id/2020/10/kisah-sayyidina-ali-menulis-ilmu-nahwu.html ";
+page[24]=" https://www.alhikmah.my.id/2020/08/matan-jurumiyah.html ";
+page[25]=" https://www.alhikmah.my.id/2020/09/cara-memasang-iklan-di-blog-yang-bisa.html ";
+page[26]=" https://www.alhikmah.my.id/2022/02/kisah-hikmah.html ";
+page[27]=" https://www.alhikmah.my.id/2021/09/kitab-kuning.html ";
+page[28]=" https://www.alhikmah.my.id/2021/12/sholawat.html ";
+page[29]=" https://www.alhikmah.my.id/2020/10/7-perkataan-mulia-yang-perlu-diucapkan.html ";
+page[30]=" https://www.alhikmah.my.id/2020/10/9-tokoh-penyebar-islam-di-jawa-wali.html ";
+page[31]=" https://www.alhikmah.my.id/2022/01/sholawat4.html ";
+page[32]=" https://www.alhikmah.my.id/2021/01/nadhom-imriti-kata-kata-hikmah-al-hikmah.html ";
+page[33]=" https://www.alhikmah.my.id/2020/11/kata-kata-hikmah.html ";
+page[34]=" https://www.alhikmah.my.id/2022/02/sholawat32.html ";
+page[35]=" https://www.alhikmah.my.id/2020/09/cara-memasang-iklan-di-blog-yang-bisa.html ";
+page[36]=" https://www.alhikmah.my.id/2021/10/e-books.html ";
+page[37]=" https://www.alhikmah.my.id/2020/10/riset-kata-kunci-untuk-seo-100-page-one.html  ";
+page[38]=" https://www.alhikmah.my.id/2021/10/download-e-books.html ";
+page[39]=" https://www.alhikmah.my.id/2020/10/panduan-membuat-daftar-isi-sederhana.html ";
+page[40]=" https://www.alhikmah.my.id/2020/10/optimisme-husnudhon-billah.html ";
+page[41]=" https://www.alhikmah.my.id/2020/08/ilahi-lastu-lil-firdausi-ahla.html ";
+page[42]=" https://www.alhikmah.my.id/2020/08/abuya-muhammad-dimyathi-bin-muhammad.html ";
+page[43]=" https://www.alhikmah.my.id/2020/09/download-pdf-puluhan-27-judul-kitab.html ";
+page[44]=" https://www.alhikmah.my.id/2020/10/10-sahabat-rosululloh-shollallohu.html ";
+page[45]=" https://www.alhikmah.my.id/2020/10/meraih-penghasilan-dengan-google-adsense.html ";
+page[46]=" https://www.alhikmah.my.id/2020/09/batik-asal-muasal-makna-batik.html ";
+page[47]=" https://www.alhikmah.my.id/2020/10/10-ilmuwan-muslim-pencipta-konsep.html ";
+page[48]=" https://www.alhikmah.my.id/2020/09/pertanian-modern.html ";
+page[49]=" https://www.alhikmah.my.id/2020/10/mau-ngaji-kitab-kuning-berikut-alamat.html ";
+page[50]=" https://www.alhikmah.my.id/2020/10/bilal-bin-rabbah-sosok-yang-sangat.html ";
+page[51]=" https://www.alhikmah.my.id/2021/01/adabul-alim-wal-mutaalim-bab-5-akhlak.html ";
+page[52]=" https://www.alhikmah.my.id/2022/01/gradien.html ";
+page[53]=" https://www.alhikmah.my.id/2022/02/mazer.html ";
+page[54]=" https://www.alhikmah.my.id/2020/09/pengertian-ilmu-hadits.html ";
+page[55]=" https://www.alhikmah.my.id/2021/11/kisah-hikmah_67.html ";
+page[56]=" https://www.alhikmah.my.id/2021/11/kisah-hikmah_29.html ";
+page[57]=" https://www.alhikmah.my.id/2020/10/abu-bakar-ash-shiddiq-ra-573-634-m.html ";
+page[58]=" https://www.alhikmah.my.id/2022/02/sholawat40.html ";
+page[59]=" https://www.alhikmah.my.id/2022/02/sholawat39.html ";
+page[60]=" https://www.alhikmah.my.id/2022/02/sholawat38.html ";
+page[61]=" https://www.alhikmah.my.id/2022/02/sholawat37.html ";
+page[62]=" https://www.alhikmah.my.id/2022/02/sholawat36.html ";
+page[63]=" https://www.alhikmah.my.id/2022/02/kamaliyah.html ";
+page[64]=" https://www.alhikmah.my.id/2022/02/kullul-qulub.html ";
+page[65]=" https://www.alhikmah.my.id/2022/02/sholawat35.html ";
+page[66]=" https://www.alhikmah.my.id/2022/02/sholawat34.html ";
+page[67]=" https://www.alhikmah.my.id/2022/02/sholawat33.html ";
+page[68]=" https://www.alhikmah.my.id/2022/02/sholawat31.html ";
+page[69]=" https://www.alhikmah.my.id/2021/12/tahfizh.html ";
+page[70]=" https://www.alhikmah.my.id/2022/01/nutrisi.html ";
+page[71]=" https://www.alhikmah.my.id/2022/01/image.html ";
+page[72]=" https://www.alhikmah.my.id/2020/10/cara-membuat-gambar-bergerakanimasi.html ";
+page[73]=" https://www.alhikmah.my.id/2020/08/tips-mudah-diterima-adsense.html ";
+page[74]=" https://www.alhikmah.my.id/2020/11/cara-cepat-diterima-google-adsensemaster.html ";
+page[75]=" https://www.alhikmah.my.id/2022/01/sholawat30.html ";
+page[76]=" https://www.alhikmah.my.id/2021/10/blog-post.html ";
+page[77]=" https://www.alhikmah.my.id/2020/09/kitab-kuning.html ";
+page[78]=" https://www.alhikmah.my.id/2020/10/inilah-12-situs-warisan-dunia-unesco-di.html ";
+page[79]=" https://www.alhikmah.my.id/2022/01/kitab.html ";
+page[80]=" https://www.alhikmah.my.id/2022/01/sholawat29.html ";
+page[81]=" https://www.alhikmah.my.id/2022/01/sholawat28.html ";
+page[82]=" https://www.alhikmah.my.id/2022/01/sholawat27.html ";
+page[83]=" https://www.alhikmah.my.id/2022/01/sholawat26.html ";
+page[84]=" https://www.alhikmah.my.id/2022/01/sholawat24.html ";
+page[85]=" https://www.alhikmah.my.id/2022/01/sholawat25.html ";
+page[86]=" https://www.alhikmah.my.id/2022/01/sholawat23.html ";
+page[87]=" https://www.alhikmah.my.id/2022/01/sholawat22.html ";
+page[88]=" https://www.alhikmah.my.id/2022/01/sholawat21.html ";
+page[89]=" https://www.alhikmah.my.id/2022/01/sholawat20.html ";
+page[90]=" https://www.alhikmah.my.id/2022/01/sholawat19.html ";
+page[91]=" https://www.alhikmah.my.id/2022/01/sholawat18.html ";
+page[92]=" https://www.alhikmah.my.id/2022/01/sholawat17.html ";
+page[93]=" https://www.alhikmah.my.id/2022/01/sholawat16.html ";
+page[94]=" https://www.alhikmah.my.id/2022/01/sholawat15.html ";
+page[95]=" https://www.alhikmah.my.id/2022/01/sholawat14.html ";
+page[96]=" https://www.alhikmah.my.id/2022/01/sholawat13.html ";
+page[97]=" https://www.alhikmah.my.id/2022/01/sholawat12.html ";
+page[98]=" https://www.alhikmah.my.id/2022/01/sholawat11.html ";
+page[99]=" https://www.alhikmah.my.id/2022/01/images.html ";
+page[100]=" https://www.alhikmah.my.id/2022/01/sholawat10.html ";
+
+function rndnumber(){
+var randscript = -1;
+while (randscript < 0 || randscript > howMany || isNaN(randscript)){
+randscript = parseInt(Math.random()*(howMany+1));
+}
+return randscript;
+}
+quo = rndnumber();
+quox = page[quo];
+window.location=(quox);
+}, 5000);
+
+</script>
