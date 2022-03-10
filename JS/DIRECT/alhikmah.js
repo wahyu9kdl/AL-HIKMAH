@@ -1,4 +1,3 @@
-<script type="text/javascript">
 setTimeout(function() {
 var howMany = 100; 
 var page = new Array(howMany+1);
@@ -116,4 +115,3 @@ quox = page[quo];
 window.location=(quox);
 }, 1000);
 
-</script>
