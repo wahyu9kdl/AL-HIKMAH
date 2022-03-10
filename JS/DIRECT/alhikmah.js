@@ -1,35 +1,33 @@
 <script type="text/javascript">
-
 setTimeout(function() {
 var howMany = 100; 
 var page = new Array(howMany+1);
-
-page[0]=" https://www.alhikmah.my.id/2022/02/kitab_28.html ";
-page[1]=" https://www.alhikmah.my.id/2022/02/kitab.html ";
-page[2]=" https://www.alhikmah.my.id/2022/02/kisah-hikmah_23.html ";
-page[3]=" https://www.alhikmah.my.id/2022/02/kisah-hikmah_23.html ";
-page[4]=" https://www.alhikmah.my.id/2022/02/kisah-hikmah_67.html ";
-page[5]=" https://www.alhikmah.my.id/2022/02/kisah-hikmah_22.html ";
-page[6]=" https://www.alhikmah.my.id/2020/10/blog-post.html ";
-page[7]=" https://www.alhikmah.my.id/2020/07/blog-post.html ";
-page[8]=" https://www.alhikmah.my.id/2022/02/hadits.html ";
-page[9]=" https://www.alhikmah.my.id/2022/02/rajab.html ";
-page[10]=" https://www.alhikmah.my.id/2020/10/gerakan-pemuda-ansor-gp-ansor.html ";
-page[11]=" https://www.alhikmah.my.id/2020/08/irmas-ikatatan-remaja-masjid.html ";
-page[12]=" https://www.alhikmah.my.id/2022/02/kisah-hikmah_19.html ";
-page[13]=" https://www.alhikmah.my.id/2020/11/ucapan-romantis-1.html ";
-page[14]=" https://www.alhikmah.my.id/2020/08/hikmah.html ";
-page[15]=" https://www.alhikmah.my.id/2020/11/keutamaan-keistimewaan-dan-peristiwa.html ";
-page[16]=" https://www.alhikmah.my.id/2020/11/wa.html ";
-page[17]=" https://www.alhikmah.my.id/2022/02/aqidatul.html ";
-page[18]=" https://www.alhikmah.my.id/2020/12/usul-fiqih-qiyas-pengertian-dan.html ";
-page[19]=" https://www.alhikmah.my.id/2020/10/masa-khulafaur-rasyidin.html ";
-page[20]=" https://www.alhikmah.my.id/2020/09/bersyukurlah.html ";
-page[21]=" https://www.alhikmah.my.id/2020/10/kisah-sejarah-raden-fatah-kesultanan.html ";
-page[22]=" https://www.alhikmah.my.id/2021/01/adabul-alim-wal-mutaalim-bab-10-tata.html ";
-page[23]=" https://www.alhikmah.my.id/2020/10/kisah-sayyidina-ali-menulis-ilmu-nahwu.html ";
-page[24]=" https://www.alhikmah.my.id/2020/08/matan-jurumiyah.html ";
-page[25]=" https://www.alhikmah.my.id/2020/09/cara-memasang-iklan-di-blog-yang-bisa.html ";
+page[0]="https://www.alhikmah.my.id/2022/02/kitab_28.html";
+page[1]="https://www.alhikmah.my.id/2022/02/kitab.html";
+page[2]="https://www.alhikmah.my.id/2022/02/kisah-hikmah_23.html";
+page[3]="https://www.alhikmah.my.id/2022/02/kisah-hikmah_23.html";
+page[4]="https://www.alhikmah.my.id/2022/02/kisah-hikmah_67.html";
+page[5]="https://www.alhikmah.my.id/2022/02/kisah-hikmah_22.html";
+page[6]="https://www.alhikmah.my.id/2020/10/blog-post.html";
+page[7]="https://www.alhikmah.my.id/2020/07/blog-post.html";
+page[8]="https://www.alhikmah.my.id/2022/02/hadits.html";
+page[9]="https://www.alhikmah.my.id/2022/02/rajab.html";
+page[10]="https://www.alhikmah.my.id/2020/10/gerakan-pemuda-ansor-gp-ansor.html";
+page[11]="https://www.alhikmah.my.id/2020/08/irmas-ikatatan-remaja-masjid.html";
+page[12]="https://www.alhikmah.my.id/2022/02/kisah-hikmah_19.html";
+page[13]="https://www.alhikmah.my.id/2020/11/ucapan-romantis-1.html";
+page[14]="https://www.alhikmah.my.id/2020/08/hikmah.html";
+page[15]="https://www.alhikmah.my.id/2020/11/keutamaan-keistimewaan-dan-peristiwa.html";
+page[16]="https://www.alhikmah.my.id/2020/11/wa.html ";
+page[17]="https://www.alhikmah.my.id/2022/02/aqidatul.html ";
+page[18]="https://www.alhikmah.my.id/2020/12/usul-fiqih-qiyas-pengertian-dan.html ";
+page[19]="https://www.alhikmah.my.id/2020/10/masa-khulafaur-rasyidin.html ";
+page[20]="https://www.alhikmah.my.id/2020/09/bersyukurlah.html ";
+page[21]="https://www.alhikmah.my.id/2020/10/kisah-sejarah-raden-fatah-kesultanan.html ";
+page[22]="https://www.alhikmah.my.id/2021/01/adabul-alim-wal-mutaalim-bab-10-tata.html ";
+page[23]="https://www.alhikmah.my.id/2020/10/kisah-sayyidina-ali-menulis-ilmu-nahwu.html ";
+page[24]="https://www.alhikmah.my.id/2020/08/matan-jurumiyah.html ";
+page[25]="https://www.alhikmah.my.id/2020/09/cara-memasang-iklan-di-blog-yang-bisa.html ";
 page[26]=" https://www.alhikmah.my.id/2022/02/kisah-hikmah.html ";
 page[27]=" https://www.alhikmah.my.id/2021/09/kitab-kuning.html ";
 page[28]=" https://www.alhikmah.my.id/2021/12/sholawat.html ";
@@ -116,6 +114,6 @@ return randscript;
 quo = rndnumber();
 quox = page[quo];
 window.location=(quox);
-}, 5000);
+}, 1000);
 
 </script>
