@@ -1,0 +1,4 @@
+URL url = new URL("https://www.alhikmah.my.id/2022/02/kitab_28.html");
+HttpURLConnection http = (HttpURLConnection)url.openConnection();
+System.out.println(http.getResponseCode() + " " + http.getResponseMessage());
+http.disconnect();
