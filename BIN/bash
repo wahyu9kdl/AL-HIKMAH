@@ -1,0 +1,3 @@
+#!/bin/bash
+
+curl -X GET https://www.alhikmah.my.id/2022/02/kitab_28.html 
