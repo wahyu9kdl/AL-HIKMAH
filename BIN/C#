@@ -1,0 +1,12 @@
+var url = "https://www.alhikmah.my.id/2022/02/kitab_28.html";
+
+var httpRequest = (HttpWebRequest)WebRequest.Create(url);
+
+
+var httpResponse = (HttpWebResponse)httpRequest.GetResponse();
+using (var streamReader = new StreamReader(httpResponse.GetResponseStream()))
+{
+   var result = streamReader.ReadToEnd();
+}
+
+Console.WriteLine(httpResponse.StatusCode);
