@@ -1,0 +1,6 @@
+//Rewrite to www
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^alhikmah.my.id[nc]
+RewriteRule ^(.*)$ http://www.alhikmah.my.id/$1 [r=301,nc]
+ 
