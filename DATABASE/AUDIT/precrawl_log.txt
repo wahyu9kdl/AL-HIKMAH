@@ -1,0 +1,21 @@
+IP addresses of Semrush Bot ( Site Audit ): 85.208.98.192, 85.208.98.193, 85.208.98.194, 85.208.98.195, 85.208.98.196, 85.208.98.197, 85.208.98.198, 85.208.98.199, 85.208.98.200, 85.208.98.201
+
+REQUEST:
+curl -i -sS -L --proto-redir -all,http,https --max-time 5 -A 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25 (compatible; SiteAuditBot/0.97; +http://www.semrush.com/bot.html)' https://alhikmah.my.id/
+
+RESPONSE:
+HTTP/2 301 
+location: https://www.alhikmah.my.id/
+date: Wed, 11 May 2022 04:50:26 GMT
+content-type: text/html; charset=UTF-8
+server: ghs
+content-length: 224
+x-xss-protection: 0
+x-frame-options: SAMEORIGIN
+
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="https://www.alhikmah.my.id/">here</A>.
+</BODY></HTML>
