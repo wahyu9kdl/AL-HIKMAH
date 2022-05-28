@@ -10,16 +10,18 @@ LIVE PREVIEW  on blooger <a href="https://www.alhikmah.my.id/p/al-hikmah-center.
 # IFRAME PAGE
 
 Anda Dapat mempublikasikan Halaman ini dengan code script iframe for blooger/Wp or website pribadi Anda.
-<code style="-moz-border-radius: 11px; -webkit-border-radius: 11px; background-color: #D9E4E4; border-radius: 11px; border: 5px solid #999; padding: 11px; t-align: left;">
+```
 <iframe id="PHP ALHIKMAH.MY.ID"
  src="https://www.alhikmah.my.id/p/al-hikmah-center.html",frameborder="0" height="1200" width="350" scrolling="no"></iframe>
-</code>
+```
 
 # JS ISLAMIC CENTER ( AL HIKMAH )
 
 
-<code><script> var a = document.createElement('a'); var linkText = document.createTextNode("🕌 "); a.appendChild(linkText); a.title = "AL HIKMAH"; a.href = "https://www.alhikmah.my.id/p/al-hikmah-center.html"; document.body.appendChild(a); </script></code>	
-	
+```
+<script> var a = document.createElement('a'); var linkText = document.createTextNode("🕌 "); a.appendChild(linkText); a.title = "AL HIKMAH"; a.href = "https://www.alhikmah.my.id/p/al-hikmah-center.html"; document.body.appendChild(a); </script></code>	
+```	
+
 <p><a href="https://github.com/wahyu9kdl/AL-HIKMAH/blob/main/Js">✪ CODE JS</a>
 </p>
 
