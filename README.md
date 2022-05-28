@@ -7,6 +7,8 @@ Situs Website <a href="https://www.alhikmah.my.id"> ALHIKMAH.MY.ID</a>
 Code <a href="https://wahyu9kdl.github.io/AL-HIKMAH/">PAGE ISLAMIC CENTER</a> via github.
 LIVE PREVIEW  on blooger <a href="https://www.alhikmah.my.id/p/al-hikmah-center.html">AL HIKMAH CENTER</a>
 
+[GET STARTED](https://wahyu9kdl.github.io/AL-HIKMAH)
+
 # IFRAME PAGE
 
 Anda Dapat mempublikasikan Halaman ini dengan code script iframe for blooger/Wp or website pribadi Anda.
@@ -19,8 +21,11 @@ Anda Dapat mempublikasikan Halaman ini dengan code script iframe for blooger/Wp 
 
 
 ```
-<script> var a = document.createElement('a'); var linkText = document.createTextNode("🕌 "); a.appendChild(linkText); a.title = "AL HIKMAH"; a.href = "https://www.alhikmah.my.id/p/al-hikmah-center.html"; document.body.appendChild(a); </script></code>	
+var a = document.createElement('a'); var linkText = document.createTextNode("🕌 "); a.appendChild(linkText); a.title = "AL HIKMAH"; a.href = "https://www.alhikmah.my.id"; document.body.appendChild(a); 	
 ```	
+```
+var a = document.createElement('a'); var linkText = document.createTextNode("🕌 "); a.appendChild(linkText); a.title = "AL HIKMAH"; a.href = "https://wahyu9kdl.github.io/AL-HIKMAH"; document.body.appendChild(a); 	
+```
 
 <p><a href="https://github.com/wahyu9kdl/AL-HIKMAH/blob/main/Js">✪ CODE JS</a>
 </p>
